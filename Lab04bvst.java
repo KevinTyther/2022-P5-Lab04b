@@ -25,6 +25,7 @@ public class Lab04bvst extends Applet
         g.drawLine(375,125,400,150);
         g.drawLine(325,150,400,150);
         g.drawLine(400,150,400,225);
+
         // DRAW SPHERE
         g.drawOval(600,125,150,150);
         g.drawOval(650,125,50,150);
@@ -39,8 +40,7 @@ public class Lab04bvst extends Applet
         g.drawOval(600,136,150,125);
 
         // DRAW INSCRIBED/CIRCUMSCRIBED TRIANGLE
-
-
+        g.drawOval(800,425,150,150);
 
         // DRAW APCS
         g.fillRect(150,425,25,125);
@@ -61,10 +61,14 @@ public class Lab04bvst extends Applet
         g.fillRect(450,425,25,75);
         g.fillRect(450,475,75,25);
         g.fillRect(500,475,25,75);
-        g.fillRect(500,525,75,25);
+        g.fillRect(450,525,75,25);
+        // S ^
+
         // DRAW PACMEN FLOWER
-
-
+        g.fillArc(700,400,100,100,45,270);
+        g.fillArc(575,400,100,100,225,270);
+        g.fillArc(640,330,100,100,138,270);
+        g.fillArc(640,470,100,100,318,270);
 
     }
 
