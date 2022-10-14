@@ -41,7 +41,10 @@ public class Lab04bvst extends Applet
 
         // DRAW INSCRIBED/CIRCUMSCRIBED TRIANGLE
         g.drawOval(800,425,150,150);
-
+        g.drawLine(800,500,925,445);
+        g.drawLine(800,500,875,575);
+        g.drawLine(875,575,925,445);
+        g.drawOval(827,477,70,70);
         // DRAW APCS
         g.fillRect(150,425,25,125);
         g.fillRect(150,475,50,25);
