@@ -13,19 +13,12 @@ public class Lab04bvst extends Applet
     public void paint(Graphics g)
     {
         // DRAW CUBE
-        g.drawLine(300,125,375,125);
-        g.drawLine(300,125,325,150);
-        g.drawLine(300,125,300,200);
-        g.drawLine(300,200,325,225);
-        g.drawLine(325,150,325,225);
-        g.drawLine(325,225,400,225);
-        g.drawLine(400,225,375,200);
-        g.drawLine(300,200,375,200);
-        g.drawLine(375,200,375,125);
-        g.drawLine(375,125,400,150);
-        g.drawLine(325,150,400,150);
-        g.drawLine(400,150,400,225);
-
+        g.drawRect(200,130,175,175);
+        g.drawRect(250,180,175,175);
+        g.drawLine(200,130,250,180);
+        g.drawLine(375,130,425,180);
+        g.drawLine(200,305,250,355);
+        g.drawLine(375,305,450,325);
         // DRAW SPHERE
         g.drawOval(600,125,150,150);
         g.drawOval(650,125,50,150);
